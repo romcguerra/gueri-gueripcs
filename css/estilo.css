@@ -1,0 +1,28 @@
+li{
+    list-style: none;
+}
+
+.rodape{
+    height: 80px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    line-height: 80px;
+    margin: 0px;
+}
+
+.lapis{
+    weight: 25px;
+    height: 22px;
+}
+
+.lixeira{
+    weight: 25px;
+    height: 25px;
+}
+
+.img{
+    weight: 400px;
+    height: 285px;
+}
