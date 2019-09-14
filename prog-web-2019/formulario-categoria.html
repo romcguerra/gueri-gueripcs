@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <!-- Seta linguagem -->
+    <meta charset="UTF-8">
+
+    <meta name="author" content="Romulo CG">
+
+    <title>Gueri-Gueri PCs</title>
+    <!-- Seta Responsivel -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Arquivos CSS -->
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header class="mb-2">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index-adm.html">Gueri-Gueri PCs</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index-adm.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="categoria.html">Categorias</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="produto.html">Produtos</a>
+                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <div class="container mt-3">
+        <div class="row">
+            <!-- Conteudo pagina -->
+            <div class="col-sm-12">
+                <div class="container mt-3">
+                    <div class="col-md-10  mx-auto">
+                        <div class="jumbotron py-3">
+                            <!-- Formulario visivel ate o submit-->
+                            <h3 class=" text-uppercase text-center">Categoria </h3>
+                            <p class="text-right text-danger m-0" style="font-size: 12px;">
+                                * Campos obrigatórios
+                            </p>
+                            <form autocomplete="off" class="mt-2">
+                                <div class="form-group">
+                                    <p class="m-0 p-0 text-danger d-inline">*</p>
+                                    <label for="nome">Nome</label>
+                                    <input type="text" class="form-control" id="rg" placeholder="Nome"
+                                        formControlName="nome" mask="0000000" />
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <a href="categoria.html" class="btn btn-success btn-block">
+                                            Salvar
+                                        </a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="categoria.html" class="btn btn-danger btn-block">
+                                            Voltar
+                                        </a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="rodape bg-dark mt-2">
+        <p>CopyRight &copy; 2019</p>
+    </footer>
+
+    <!-- CSS Bootsrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
